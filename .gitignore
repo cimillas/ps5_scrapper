@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# vscode
+.vscode
+
 # Distribution / packaging
 .Python
 build/
@@ -103,6 +106,7 @@ celerybeat.pid
 
 # Environments
 .env
+env.yml
 .venv
 env/
 venv/
@@ -127,3 +131,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Gcloud
+.gcloudignore
+
